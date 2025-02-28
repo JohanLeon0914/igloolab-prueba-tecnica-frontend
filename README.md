@@ -1,33 +1,38 @@
-# Frontend de la Tienda - Prueba Técnica
+# Frontend - Gestión de Productos
 
-Este es el frontend de la aplicación de tienda creada como parte de una prueba técnica. La aplicación está construida con Next.js, TailwindCSS, Redux y TypeScript. 
-- Esta aplicación frontend está desplegada en https://frontend-store-prueba-tecnica.vercel.app.
-- El backend que maneja los productos y el carrito de compras es consumido a través de la API desplegada en https://backend-store-prueba-tecnica.vercel.app.
+Este proyecto es el frontend de una aplicación de gestión de productos, desarrollado con Next.js, TypeScript, Tailwind CSS y Redux Toolkit. Permite listar, agregar, editar y eliminar productos, así como gestionar un carrito de compras.
+
+## 📋 Requisitos Previos
+
+- **Node.js** (v16+)
+- **npm** (v8+)
+- **Next.js** (v15+)
+- **Redux Toolkit** (v1.8+)
+- **Tailwind CSS** (v3+)
+
+## 🚀 Instalación y Configuración
+
+### 1. Clonar el repositorio
+```bash
+git clone [https://github.com/JohanLeon0914/igloolab-prueba-tecnica-frontend]
+cd igloolab-prueba-tecnica-frontend
+```
+
+### 2. Instalar dependencias
+```bash
+npm install
+```
+
+### 3. Configurar variables de entorno
+## Crear un archivo .env en la raíz del proyecto con la siguiente variable
+```bash
+NEXT_PUBLIC_API_URL=http://localhost:3001
+```
+### 4. Ejecutar el servidor de desarrollo
+```bash
+npm run dev
+```
+## El servidor frontend estará disponible en: http://localhost:3000
 
 
 
-## Funcionalidades
-
-- Visualización de productos disponibles.
-- Gestión del carrito de compras (agregar y eliminar productos).
-- Integración con la API backend para la gestión de productos y el carrito.
-
-## Cómo Ejecutar la Aplicación
-
-1. Clona este repositorio en tu máquina local:
-   ```bash
-   git clone https://github.com/JohanLeon0914/frontend-store-prueba-tecnica.git
-2. Entra en la carpeta del proyecto:
-   ```bash
-   cd frontend-store-prueba-tecnica
-3. Instala las dependencias:
-   ```bash
-   npm install
-4. Configura las variables de entorno: Crea un archivo .env en la raíz del proyecto y agrega URL de la API, https://backend-store-prueba-tecnica.vercel.app o 
-    http://localhost:3000 si estas corriendo el backend en local:
-    ```bash
-    NEXT_PUBLIC_API_URL = "https://backend-store-prueba-tecnica.vercel.app"
-5. Ejecuta la aplicación en modo desarrollo:
-   ```bash
-   npm run dev
-Esto iniciará el servidor en http://localhost:3000 o en http://localhost:3001 si el puerto ya esta ocupado por el servidor backend

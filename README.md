@@ -14,7 +14,7 @@ Este proyecto es el frontend de una aplicación de gestión de productos, desarr
 
 ### 1. Clonar el repositorio
 ```bash
-git clone [https://github.com/JohanLeon0914/igloolab-prueba-tecnica-frontend]
+git clone https://github.com/JohanLeon0914/igloolab-prueba-tecnica-frontend
 cd igloolab-prueba-tecnica-frontend
 ```
 

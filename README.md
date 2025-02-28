@@ -3,7 +3,7 @@
 Este proyecto es el frontend de una aplicación de gestión de productos, desarrollado con Next.js, TypeScript, Tailwind CSS y Redux Toolkit. Permite listar, agregar, editar y eliminar productos, así como gestionar un carrito de compras.
 
 ## 📋 Requisitos Previos
-
+- **Ejecutar el proyecto backend que puedes encontrar en: https://github.com/JohanLeon0914/igloolab-prueba-tecnica-backend**
 - **Node.js** (v16+)
 - **npm** (v8+)
 - **Next.js** (v15+)
